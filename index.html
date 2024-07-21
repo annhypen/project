@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cheer up vancil</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+
+    <body>
+
+
+        <div class="container">
+            <nav>
+                <a href="https://wa.me/6281329760800" target="_blank">
+                    <div class="nav-circle">
+                        <span class="material-symbols-outlined" id="home">home</span>
+                    </div>
+                </a>
+                
+                <a href="https://whatsapp.com/channel/0029VadL3yRAzNc0tbJnWP3o" target="_blank">
+                    <div class="nav-circle">
+                        <span class="material-symbols-outlined" id="channel">history_edu</span>
+                    </div>
+                </a>
+                
+            </nav>
+
+            <div class="img-container">
+                <img src="photo.jpeg" class="paused" id="song-img">
+            </div>
+            <div class="song-title">
+                <h1>vancil project</h1>
+                <p>by encilcu</p>
+            </div>
+            
+            <audio id="song">
+                <source src="vancil_project.mp3" type="audio/mpeg">
+            </audio>
+
+            <input type="range" value="0" id="progressbar">
+    
+            <div class="controls" onclick="pp()">
+                <span id="ctrl" class="material-symbols-outlined" style="font-size: 60px; color: #333">
+                    play_arrow
+                    </span>
+            </div>
+        </div>
+
+        
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
